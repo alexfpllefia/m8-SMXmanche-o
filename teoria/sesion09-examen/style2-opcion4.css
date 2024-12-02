@@ -1,0 +1,106 @@
+body {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    background-color: rgb(118, 68, 255);
+    color: aliceblue;
+    text-align: center;
+    width: 5%; 
+    padding:11px 0 11px 0;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: normal;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.boton{
+    font-family: "libre baskerville";
+    color: whitesmoke;
+}
+
+header {
+    font-family: "libre baskerville";
+    padding: 40px 0;
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+h1{
+    font-family: "libre baskerville";
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 3px;
+}
+
+.fromtheblog{
+    font-family: "libre baskerville";
+    font-weight: bold;
+    color: rgb(161, 159, 159);
+}
+
+
+
+.foto1{
+    font-family: "libre baskerville";
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    background-color: white;    
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+}
+
+.foto2{
+    font-family: "libre baskerville";
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    background-color: white;   
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+}
+
+.foto3{
+    font-family: "libre baskerville";
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 20%;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: -3px -3px 15px 0px rgba(0,0,0,0.45);
+}
+
+
+img{
+    font-family: "libre baskerville";
+    width: 100%;
+    border-radius: 10px;
+}
+
+.main{
+    font-family: "libre baskerville";
+    text-align: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+    height: 100%;
+}
