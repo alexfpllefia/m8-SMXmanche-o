@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="formularios.html" style="text-align:center; margin:auto; width: 25%; display:flex; flex-direction: column;">
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="nombre" required placeholder="completa este campo">
+
+            <label for="surname">Apellido</label>
+            <input type="text" id="surname name="cognoms">
+
+            <label for="gmail">Correo electronico</label>
+            <input type="gmail">
+
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+
+            Permite seleccionar varias opciones.
+            <p>Intereses:</p>
+            <input type="checkbox" id="deportes" name="intereses" value="deportes">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="musica" name="intereses" value="musica">
+            <label for="musica">Música</label>
+
+            <label for="selection-genero">Selecciona tu genero de musica favorito</label>
+            <select name="gen" id="seleccion-genero">
+
+                <option value="">selecciona un genero</option>
+                <option value="rap">Rap</option>
+                <option value="rock">Rock</option>
+                <option value="blues">Blues</option>
+                <option value="punk">Punk</option>
+                <option value="techno">Techno</option>
+                <option value="trance">Trance</option>
+
+            </select>
+
+            
+            <button type="submit">Enviar</button>
+
+        </form>
+    </div>
+</body>
+</html>
