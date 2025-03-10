@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ff4655;
+    background-color: #0f1923;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-right: 150px;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 150px;
+}
+
+.hero{
+    margin-top: 150px;
+    text-align: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/008/922/022/non_2x/gradient-black-background-with-angle-shapes-texture-illustration-vector.jpg);
+    height: 300px;
+}
+
+.titulo1{
+    color: white;
+}
+
+.inscriute{
+    background-color: #ff4655;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.tournament{
+    text-align: center;
+}
+
+table{
+    margin-left: 32%;
+    background-color: #1a2a3a;
+    width: 700px;
+    height: 40vh;
+}
+
+th{
+    background-color: #ff4655;
+    color: white;
+    gap: 100px;
+    border-radius: 10px;
+
+}
+
+td{
+    color: white;
+    justify-content: space-between;
+}
+
+.registration{
+    background-color: #1a2a3a;
+    border-radius: 10px;
+    margin: auto;
+    width: 300px;
+}
+
+.submit{
+    background-color: #ff4655;
+    color: white;
+    border-radius: 10px;
+    width: fit-content;
+    height: 5vh;
+}
+
+
+
