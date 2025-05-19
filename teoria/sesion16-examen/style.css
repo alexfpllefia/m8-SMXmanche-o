@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+}
+
+.section1{
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(189, 97, 97);
+    width: 320px;
+    color: white;
+}
+
+.profe{
+    text-align: center;
+}
+
+.profe img {
+    padding-top: 70px;
+    width: 80px;
+    border-radius: 100%;
+}
+
+.section2 {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.section2 a:hover{
+    background-color: aliceblue;
+    color: brown;
+}
+
+.iconos {
+    padding-top: 150px;
+    display: flex;
+    gap: 1px;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.iconos i{
+    background-color: rgb(145, 102, 102);
+    border-radius: 10%;
+    width: 50px;
+    padding: 5px 5px 5px 5px;
+}
+
+footer {
+    padding-top: 200px;
+    text-align: center;
+
+}
+
+
+.todo {
+    background: url(img/montaña.avif) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div1 {
+    align-items: center;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    gap: 20px;
+    
+
+}
+
+.div1 img{
+    width: 600px;
+    height: auto;
+    border-radius: 2%;
+}
+
+.parra1 {
+    text-align: left;
+}
+
+button {
+    background-color: aliceblue;
+    color: brown;
+    width: 100px;
+    height: 60px;
+}
+
+.div2 {
+    align-items: center;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    
+    
+}
+
+.div2 img {
+    width: 400px;
+    height: auto;
+    border-radius: 2%;
+}
+
+.parra2 {
+    text-align: left;
+}
+
+button:hover {
+    background-color: brown;
+    color: aliceblue;
+}
